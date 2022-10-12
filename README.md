@@ -32,3 +32,9 @@ https://maven.apache.org/download.cgi
 ## Project users 👥
 
 * **Nestor Flores** - *SDET* - [user](https://github.com/wilux)
+
+## Video Sample
+
+
+https://user-images.githubusercontent.com/850505/195427339-ede12024-1028-42a7-96f7-d4421c5af585.mp4
+
