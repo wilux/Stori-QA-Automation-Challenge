@@ -45,12 +45,7 @@ public class TestListener implements ITestListener {
 
     public void onTestSuccess(ITestResult result) {
         Log.info(getTestMethodName(result) + " test is succeed.");
-
-        Object testClass = result.getInstance();
-        WebDriver webDriver = ((BaseTest) testClass).getDriver();
-        String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BASE64);
-        getTest().log(Status.PASS, "Test Passed",
-                getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));
+        getTest().log(Status.PASS, "Test Passed");
     }
 
     public void onTestFailure(ITestResult result) {

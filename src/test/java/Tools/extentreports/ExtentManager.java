@@ -34,8 +34,6 @@ public class ExtentManager {
         String fileName = getReportPath(reportFilepath);
 
         ExtentSparkReporter htmlReporter = new ExtentSparkReporter(fileName);
-//        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
-//        htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTheme(Theme.STANDARD);
         htmlReporter.config().setDocumentTitle(reportFileName);
         htmlReporter.config().setEncoding("utf-8");
