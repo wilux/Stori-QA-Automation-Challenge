@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stori-QA-Automation-Challenge]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Tools.listeners.TestListener"/>
+    <listener class-name="Tools.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Tests(failed)" verbose="0">
+    <classes>
+      <class name="testSuit.testCases.HomePageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="windowsExampleTextForLifeTime"/>
+          <include name="switchToAlert"/>
+          <include name="windowsExampleTextForInDepth"/>
+          <include name="windowsExampleLoadSuccessful"/>
+          <include name="beforeTest"/>
+          <include name="loadPageUrlSuccessful"/>
+          <include name="beforeAll"/>
+          <include name="windowsExampleTitleLifeTime"/>
+          <include name="switchToAlertAndAccept"/>
+          <include name="windowsExampleTextForSelfPeace"/>
+          <include name="windowsExampleTextForResumePreparation"/>
+        </methods>
+      </class> <!-- testSuit.testCases.HomePageTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Stori-QA-Automation-Challenge] -->

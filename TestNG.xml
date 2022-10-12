@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stori-QA-Automation-Challenge">
+    <listeners>
+        <listener class-name="Tools.listeners.TestListener"/>
+        <listener class-name="Tools.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Tests">
+        <classes>
+            <class name="testSuit.testCases.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
